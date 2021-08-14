@@ -1,10 +1,10 @@
 {
-  "name": "of-coin",
+  "name": "CoinResearch",
   "version": "1.0.0",
   "description": "A static blog generator for people who want to start a blog quickly",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oftarradiddle/CoinResearch.git"
+    "url": "https://github.com/ofTarradiddle/CoinResearch.git"
   },
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,10 @@
     "build": "bash ./tools/build.sh",
     "watch": "ts-node ./tools/watch.ts",
     "publish": "ts-node ./tools/publish.ts",
-    "deploy": "gh-pages -d build",
-
+    
+    "deploy": "bash ./tools/deploy.sh",
     "test": "mocha -r ts-node/register ./services/tests/**/*.test.ts",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
 
   },
   "author": "",
