@@ -12,9 +12,11 @@
     "build": "bash ./tools/build.sh",
     "watch": "ts-node ./tools/watch.ts",
     "publish": "ts-node ./tools/publish.ts",
-    "deploy": "bash ./tools/deploy.sh",
+    "deploy": "gh-pages -d build",
+
     "test": "mocha -r ts-node/register ./services/tests/**/*.test.ts",
     "predeploy": "npm run build"
+
   },
   "author": "",
   "license": "MIT",
