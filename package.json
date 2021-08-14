@@ -1,10 +1,10 @@
 {
-  "name": "of Coin",
+  "name": "of-coin",
   "version": "1.0.0",
   "description": "A static blog generator for people who want to start a blog quickly",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ofTarradiddle/CoinResearch.git"
+    "url": "https://github.com/oftarradiddle/CoinResearch.git"
   },
   "main": "index.js",
   "scripts": {
