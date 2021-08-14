@@ -15,10 +15,10 @@
     
     "deploy": "bash ./tools/deploy.sh",
     "test": "mocha -r ts-node/register ./services/tests/**/*.test.ts",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build"
 
   },
-  "author": "",
+  "author": "Diamond",
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
